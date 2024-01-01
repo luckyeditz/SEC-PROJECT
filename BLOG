@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chocolate Factory Blog</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chocolate Factory Blog</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Inside the Chocolate Wonderland</h2>
+            <p>Explore the magical world of our chocolate factory, where cocoa beans transform into delicious treats.
+                Learn about the process, from harvesting cocoa to creating mouth-watering chocolate bars.</p>
+        </article>
+
+        <article>
+            <h2>The Art of Chocolate Making</h2>
+            <p>Discover the craftsmanship behind our chocolates. From tempering to molding, our chocolatiers put
+                passion and skill into every step. Indulge in the sweet journey of creating exquisite chocolate
+                delights.</p>
+        </article>
+
+        <!-- More articles can be added here -->
+
+    </main>
+
+   
+  
+</body>
+
+</html>
+
+
+
+CSS
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
